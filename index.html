@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>पवन किराना स्टोर</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f5;
+    color: #222;
+}
+
+header {
+    background: #087a42;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+nav {
+    background: #064e2c;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 35px 15px;
+    background: #e2f5e9;
+}
+
+.banner h2 {
+    color: #087a42;
+    font-size: 25px;
+}
+
+.banner p {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 25px 15px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #087a42;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+    color: #087a42;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.order {
+    text-align: center;
+    background: #e2f5e9;
+    padding: 30px 15px;
+    margin-top: 20px;
+}
+
+.order a {
+    display: inline-block;
+    background: #159447;
+    color: white;
+    padding: 14px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+footer {
+    background: #064e2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 पवन किराना स्टोर</h1>
+    <p>आपकी रोजमर्रा की जरूरतों का भरोसेमंद स्टोर</p>
+    <p>ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+</header>
+
+<nav>
+    <a href="#home">होम</a>
+    <a href="#products">सामान</a>
+    <a href="#contact">संपर्क</a>
+</nav>
+
+<section class="banner" id="home">
+    <h2>पवन किराना स्टोर में आपका स्वागत है!</h2>
+    <p>घर की जरूरत का हर सामान एक ही जगह।</p>
+    <p>अच्छी क्वालिटी और उचित दाम।</p>
+</section>
+
+<section class="container" id="products">
+
+<h2>हमारे यहाँ उपलब्ध सामान</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>🌾 आटा</h3>
+<p>गेहूं का आटा</p>
+</div>
+
+<div class="card">
+<h3>🍚 चावल</h3>
+<p>अच्छी क्वालिटी के चावल</p>
+</div>
+
+<div class="card">
+<h3>🥣 दाल</h3>
+<p>सभी प्रकार की दालें</p>
+</div>
+
+<div class="card">
+<h3>🍬 चीनी</h3>
+<p>सफेद चीनी</p>
+</div>
+
+<div class="card">
+<h3>🛢️ तेल</h3>
+<p>खाने के सभी प्रकार के तेल</p>
+</div>
+
+<div class="card">
+<h3>🌶️ मसाले</h3>
+<p>सभी प्रकार के मसाले</p>
+</div>
+
+<div class="card">
+<h3>🧼 साबुन</h3>
+<p>सभी ब्रांड के साबुन</p>
+</div>
+
+<div class="card">
+<h3>🧴 शैम्पू</h3>
+<p>शैम्पू और हेयर ऑयल</p>
+</div>
+
+<div class="card">
+<h3>🍪 बिस्किट</h3>
+<p>सभी प्रकार के बिस्किट</p>
+</div>
+
+<div class="card">
+<h3>🍿 नमकीन</h3>
+<p>नमकीन और स्नैक्स</p>
+</div>
+
+<div class="card">
+<h3>🍫 चॉकलेट</h3>
+<p>बच्चों के लिए चॉकलेट</p>
+</div>
+
+<div class="card">
+<h3>🛍️ अन्य सामान</h3>
+<p>रोजमर्रा की जरूरत का सामान</p>
+</div>
+
+</div>
+</section>
+
+<section class="order">
+
+<h2>WhatsApp से ऑर्डर करें</h2>
+
+<p>अपना सामान WhatsApp पर पूछें।</p>
+
+<a href="https://wa.me/91XXXXXXXXXX">
+WhatsApp पर ऑर्डर करें
+</a>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>हमसे संपर्क करें</h2>
+
+<p><b>दुकान:</b> पवन किराना स्टोर</p>
+
+<p><b>पता:</b> ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+
+<p>मुस्कान ज्वेलर्स के बगल में</p>
+
+<p>मछली मंडी के बिल्कुल सामने</p>
+
+</section>
+
+<footer>
+<p>© 2026 पवन किराना स्टोर</p>
+<p>धन्यवाद! फिर आइएगा।</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>पवन किराना स्टोर</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f5;
+    color: #222;
+}
+
+header {
+    background: #087a42;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+nav {
+    background: #064e2c;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 35px 15px;
+    background: #e2f5e9;
+}
+
+.banner h2 {
+    color: #087a42;
+    font-size: 25px;
+}
+
+.banner p {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 25px 15px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #087a42;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+    color: #087a42;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.order {
+    text-align: center;
+    background: #e2f5e9;
+    padding: 30px 15px;
+    margin-top: 20px;
+}
+
+.order a {
+    display: inline-block;
+    background: #159447;
+    color: white;
+    padding: 14px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+footer {
+    background: #064e2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 पवन किराना स्टोर</h1>
+    <p>आपकी रोजमर्रा की जरूरतों का भरोसेमंद स्टोर</p>
+    <p>ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+</header>
+
+<nav>
+    <a href="#home">होम</a>
+    <a href="#products">सामान</a>
+    <a href="#contact">संपर्क</a>
+</nav>
+
+<section class="banner" id="home">
+    <h2>पवन किराना स्टोर में आपका स्वागत है!</h2>
+    <p>घर की जरूरत का हर सामान एक ही जगह।</p>
+    <p>अच्छी क्वालिटी और उचित दाम।</p>
+</section>
+
+<section class="container" id="products">
+
+<h2>हमारे यहाँ उपलब्ध सामान</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>🌾 आटा</h3>
+<p>गेहूं का आटा</p>
+</div>
+
+<div class="card">
+<h3>🍚 चावल</h3>
+<p>अच्छी क्वालिटी के चावल</p>
+</div>
+
+<div class="card">
+<h3>🥣 दाल</h3>
+<p>सभी प्रकार की दालें</p>
+</div>
+
+<div class="card">
+<h3>🍬 चीनी</h3>
+<p>सफेद चीनी</p>
+</div>
+
+<div class="card">
+<h3>🛢️ तेल</h3>
+<p>खाने के सभी प्रकार के तेल</p>
+</div>
+
+<div class="card">
+<h3>🌶️ मसाले</h3>
+<p>सभी प्रकार के मसाले</p>
+</div>
+
+<div class="card">
+<h3>🧼 साबुन</h3>
+<p>सभी ब्रांड के साबुन</p>
+</div>
+
+<div class="card">
+<h3>🧴 शैम्पू</h3>
+<p>शैम्पू और हेयर ऑयल</p>
+</div>
+
+<div class="card">
+<h3>🍪 बिस्किट</h3>
+<p>सभी प्रकार के बिस्किट</p>
+</div>
+
+<div class="card">
+<h3>🍿 नमकीन</h3>
+<p>नमकीन और स्नैक्स</p>
+</div>
+
+<div class="card">
+<h3>🍫 चॉकलेट</h3>
+<p>बच्चों के लिए चॉकलेट</p>
+</div>
+
+<div class="card">
+<h3>🛍️ अन्य सामान</h3>
+<p>रोजमर्रा की जरूरत का सामान</p>
+</div>
+
+</div>
+</section>
+
+<section class="order">
+
+<h2>WhatsApp से ऑर्डर करें</h2>
+
+<p>अपना सामान WhatsApp पर पूछें।</p>
+
+<a href="https://wa.me/91XXXXXXXXXX">
+WhatsApp पर ऑर्डर करें
+</a>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>हमसे संपर्क करें</h2>
+
+<p><b>दुकान:</b> पवन किराना स्टोर</p>
+
+<p><b>पता:</b> ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+
+<p>मुस्कान ज्वेलर्स के बगल में</p>
+
+<p>मछली मंडी के बिल्कुल सामने</p>
+
+</section>
+
+<footer>
+<p>© 2026 पवन किराना स्टोर</p>
+<p>धन्यवाद! फिर आइएगा।</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>पवन किराना स्टोर</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f5;
+    color: #222;
+}
+
+header {
+    background: #087a42;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+}
+
+nav {
+    background: #064e2c;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    padding: 35px 15px;
+    background: #e2f5e9;
+}
+
+.banner h2 {
+    color: #087a42;
+    font-size: 25px;
+}
+
+.banner p {
+    margin-top: 10px;
+}
+
+.container {
+    padding: 25px 15px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #087a42;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.card h3 {
+    margin-bottom: 8px;
+    color: #087a42;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.order {
+    text-align: center;
+    background: #e2f5e9;
+    padding: 30px 15px;
+    margin-top: 20px;
+}
+
+.order a {
+    display: inline-block;
+    background: #159447;
+    color: white;
+    padding: 14px 25px;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+footer {
+    background: #064e2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🛒 पवन किराना स्टोर</h1>
+    <p>आपकी रोजमर्रा की जरूरतों का भरोसेमंद स्टोर</p>
+    <p>ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+</header>
+
+<nav>
+    <a href="#home">होम</a>
+    <a href="#products">सामान</a>
+    <a href="#contact">संपर्क</a>
+</nav>
+
+<section class="banner" id="home">
+    <h2>पवन किराना स्टोर में आपका स्वागत है!</h2>
+    <p>घर की जरूरत का हर सामान एक ही जगह।</p>
+    <p>अच्छी क्वालिटी और उचित दाम।</p>
+</section>
+
+<section class="container" id="products">
+
+<h2>हमारे यहाँ उपलब्ध सामान</h2>
+
+<div class="products">
+
+<div class="card">
+<h3>🌾 आटा</h3>
+<p>गेहूं का आटा</p>
+</div>
+
+<div class="card">
+<h3>🍚 चावल</h3>
+<p>अच्छी क्वालिटी के चावल</p>
+</div>
+
+<div class="card">
+<h3>🥣 दाल</h3>
+<p>सभी प्रकार की दालें</p>
+</div>
+
+<div class="card">
+<h3>🍬 चीनी</h3>
+<p>सफेद चीनी</p>
+</div>
+
+<div class="card">
+<h3>🛢️ तेल</h3>
+<p>खाने के सभी प्रकार के तेल</p>
+</div>
+
+<div class="card">
+<h3>🌶️ मसाले</h3>
+<p>सभी प्रकार के मसाले</p>
+</div>
+
+<div class="card">
+<h3>🧼 साबुन</h3>
+<p>सभी ब्रांड के साबुन</p>
+</div>
+
+<div class="card">
+<h3>🧴 शैम्पू</h3>
+<p>शैम्पू और हेयर ऑयल</p>
+</div>
+
+<div class="card">
+<h3>🍪 बिस्किट</h3>
+<p>सभी प्रकार के बिस्किट</p>
+</div>
+
+<div class="card">
+<h3>🍿 नमकीन</h3>
+<p>नमकीन और स्नैक्स</p>
+</div>
+
+<div class="card">
+<h3>🍫 चॉकलेट</h3>
+<p>बच्चों के लिए चॉकलेट</p>
+</div>
+
+<div class="card">
+<h3>🛍️ अन्य सामान</h3>
+<p>रोजमर्रा की जरूरत का सामान</p>
+</div>
+
+</div>
+</section>
+
+<section class="order">
+
+<h2>WhatsApp से ऑर्डर करें</h2>
+
+<p>अपना सामान WhatsApp पर पूछें।</p>
+
+<a href="https://wa.me/91XXXXXXXXXX">
+WhatsApp पर ऑर्डर करें
+</a>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>हमसे संपर्क करें</h2>
+
+<p><b>दुकान:</b> पवन किराना स्टोर</p>
+
+<p><b>पता:</b> ज़मानिया स्टेशन, गाज़ीपुर, उत्तर प्रदेश</p>
+
+<p>मुस्कान ज्वेलर्स के बगल में</p>
+
+<p>मछली मंडी के बिल्कुल सामने</p>
+
+</section>
+
+<footer>
+<p>© 2026 पवन किराना स्टोर</p>
+<p>धन्यवाद! फिर आइएगा।</p>
+</footer>
+
+</body>
+</html>
